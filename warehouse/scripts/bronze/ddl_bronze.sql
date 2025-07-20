@@ -40,3 +40,24 @@ create table bronze.targets(
 Division	varchar(50),
 Target		int,
 )
+
+create table bronze.uszips(
+zip		varchar(50),
+lat		float,
+lng		float,
+city	varchar(50),
+state_id	varchar(50),
+state_name	varchar(50),
+zcta	varchar(50),
+parent_zcta	varchar(50),
+population	int,
+density		float,
+county_fips	int,
+county_name	varchar(50),
+county_weights varchar(100),
+county_names_all	varchar(100),
+county_fips_all		varchar(100),
+imprecise	varchar(50),
+military	varchar(50),
+timezone	varchar(50),
+)
