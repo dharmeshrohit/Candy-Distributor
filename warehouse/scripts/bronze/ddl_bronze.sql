@@ -34,3 +34,9 @@ Units			int,
 Gross_Profit	float,
 Cost			float,
 )
+
+
+create table bronze.targets(
+Division	varchar(50),
+Target		int,
+)
