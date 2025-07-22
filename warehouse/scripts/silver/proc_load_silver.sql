@@ -71,3 +71,14 @@ Gross_Profit,
 Cost
 from bronze.sales
 order by Row_ID asc
+
+
+insert into silver.targets(
+division,
+target
+)
+
+select
+trim(division) as division,
+target
+from bronze.targets
