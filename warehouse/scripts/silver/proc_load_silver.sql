@@ -1,3 +1,16 @@
+insert into silver.factories(
+factory,
+latitude,
+longitude
+)
+
+select
+trim(Factory),
+Latitude,
+Longitude
+from bronze.factories
+
+
 insert into silver.sales (
 row_id,
 order_id,
