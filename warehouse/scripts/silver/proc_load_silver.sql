@@ -11,6 +11,25 @@ Longitude
 from bronze.factories
 
 
+insert into silver.products(
+division,
+product_name,
+factory,
+product_id,
+Unit_Price,
+Unit_cost
+)
+
+select
+trim(Division) as division,
+trim(product_name) as product_name,
+trim(factory) factory,
+TRIM(product_id) product_id,
+Unit_Price,
+Unit_cost
+from bronze.products
+
+
 insert into silver.sales (
 row_id,
 order_id,
@@ -30,7 +49,6 @@ sales,
 units,
 gross_profit,
 cost)
-
 
 select 
 row_id,
