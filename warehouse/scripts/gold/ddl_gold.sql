@@ -54,10 +54,12 @@ SELECT
     s.sales,
     s.units,
     s.gross_profit,
+    p.unit_price,
     s.cost,
     t.target
 FROM silver.sales s
 LEFT JOIN silver.targets t ON s.division = t.division
+LEFT JOIN silver.products p ON s.product_id = p.product_id 
 WHERE s.order_id IS NOT NULL;
 GO
 
