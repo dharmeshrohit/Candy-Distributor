@@ -21,7 +21,7 @@ The SQL queries utilized to buil data warehouse can be found [here.](https://git
 
 The SQL queries utilized to clean, organize, and prepare data for the dashboard can be found [here.](https://github.com/dharmeshrohit/Candy-Distributor/blob/main/warehouse/scripts/gold/ddl_gold.sql)
 
-A comprehensive Analysis Report can be found [here.](https://github.com/dharmeshrohit/Candy-Distributor/blob/main/analysis/doc/Candy%20Distributor%20dashboard.pbix)
+A comprehensive Analysis Report can be found [here.](https://github.com/dharmeshrohit/Candy-Distributor/blob/main/analysis/doc/Candy%20Distribution%20Analysis%20Report.pdf)
 
 ## Data Warehouse
 The data warehouse was built using a multi-layered approach:
